@@ -1,5 +1,7 @@
 package com.examples.quests;
 
+import com.examples.knights.Knight;
+
 public interface Quest {
-    void embark();
+    void embark(Knight knight);
 }

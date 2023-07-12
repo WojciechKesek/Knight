@@ -8,4 +8,8 @@ import org.springframework.stereotype.Service;
 public class KnightService {
     @Autowired
     Knight knight;
+
+    public void sendKnight(){
+        knight.embarkOnQuest();
+    }
 }
